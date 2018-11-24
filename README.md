@@ -11,6 +11,6 @@ This build script will
 * Start the image build
 * Start the ssh_server right after the build with ssh port mounted to 22
 
-###This build script was written for ubuntu 16.04
+### This build script was written for ubuntu 16.04
 ## Author
 Victor

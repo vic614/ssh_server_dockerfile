@@ -13,4 +13,4 @@ This build script will
 
 ### This build script was written for ubuntu 16.04
 ## Author
-Victor
+* Victor

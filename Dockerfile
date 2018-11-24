@@ -1,7 +1,9 @@
 FROM ubuntu:16.04
 RUN apt-get update
 RUN apt-get install -y openssh-server
+# Create necessary folder for ssh server
 RUN mkdir /var/run/sshd
+# define user name
 ENV USER_NAME=user
 RUN useradd -ms /bin/bash $USER_NAME
 USER $USER_NAME
